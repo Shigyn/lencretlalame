@@ -170,11 +170,25 @@ p { margin: 0 }
 }
 
 /* ---------------- manifeste ---------------- */
-.manifeste { position: relative; padding: clamp(96px, 13vw, 170px) 0; background: var(--charbon); text-align: center; overflow: hidden }
+.manifeste { position: relative; padding: clamp(72px, 9vw, 120px) 0 clamp(64px, 8vw, 104px); text-align: center; overflow: hidden;
+  background:
+    radial-gradient(60% 90% at 0% 50%, rgba(200, 162, 90, .16), transparent 70%),
+    radial-gradient(60% 90% at 100% 50%, rgba(111, 165, 140, .22), transparent 70%),
+    linear-gradient(90deg, #1A1712 0%, #141A16 50%, var(--foret) 100%) }
+.manifeste::before { content: '&'; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -54%); font-family: var(--titre); font-style: italic; font-size: clamp(320px, 42vw, 620px); line-height: 1; color: var(--or); opacity: .05; pointer-events: none }
+.manifeste .wrap { position: relative }
 .manifeste p.grand { font-family: var(--titre); font-size: clamp(34px, 4.6vw, 64px); line-height: 1.12; color: var(--creme); max-width: 22ch; margin: 22px auto 0 }
 .manifeste em { font-style: italic; color: var(--or) }
 .manifeste em.vert { color: var(--jade) }
-.manifeste .capitales { color: var(--doux-nuit) }
+.manifeste .capitales { color: var(--or-clair) }
+.manifeste .filet { margin-top: 32px }
+.piliers { display: grid; grid-template-columns: repeat(3, 1fr); max-width: 940px; margin: clamp(40px, 5vw, 60px) auto 0; border-top: 1px solid rgba(239, 230, 212, .14) }
+.piliers > div { padding: 26px 22px 0 }
+.piliers > div + div { border-left: 1px solid rgba(239, 230, 212, .14) }
+.piliers b { display: block; font-family: var(--titre); font-style: italic; font-weight: 600; font-size: 28px; line-height: 1.1; color: var(--or-clair) }
+.piliers > div:last-child b { color: var(--jade) }
+.piliers span { display: block; margin-top: 8px; font-size: 15px; line-height: 1.55; color: var(--doux-foret) }
+@media (max-width: 700px) { .piliers { grid-template-columns: 1fr } .piliers > div { padding: 20px 0 } .piliers > div + div { border-left: 0; border-top: 1px solid rgba(239, 230, 212, .14) } }
 .filet { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 40px; color: var(--or) }
 .filet::before, .filet::after { content: ''; width: 90px; height: 1px; background: currentColor; opacity: .6 }
 
@@ -342,6 +356,11 @@ p { margin: 0 }
       <p class="capitales">Barbier · Coiffeur homme · Tatoueur</p>
       <p class="grand" data-editable-zone="manifeste_texte">À Lespignan, une même adresse pour <em>la coupe nette</em> et <em class="vert">l'encre qui reste</em>.</p>
       <p class="filet" aria-hidden="true">&amp;</p>
+      <div class="piliers">
+        <div><b data-editable-zone="manifeste_1_titre">La coupe</b><span data-editable-zone="manifeste_1_texte">Classique, dégradé, contours nets : une coupe pensée pour vous.</span></div>
+        <div><b data-editable-zone="manifeste_2_titre">La barbe</b><span data-editable-zone="manifeste_2_texte">Taille, contours et rasage à l'ancienne, serviette chaude.</span></div>
+        <div><b data-editable-zone="manifeste_3_titre">L'encre</b><span data-editable-zone="manifeste_3_texte">Un tatouage dessiné sur mesure, du premier croquis à la cicatrisation.</span></div>
+      </div>
     </div>
   </section>
 
