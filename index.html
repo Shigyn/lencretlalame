@@ -3,29 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>L'encre &amp; la Lame — Barbier, coiffeur homme et tatoueur à Lespignan</title>
-<meta name="description" content="L'encre & la Lame, coiffeur homme, barbier et tatoueur à Lespignan (34710), près de Béziers. Coupe, dégradé, barbe et tatouage sur mesure : deux univers, une adresse. Ouverture prochainement.">
-<!-- MAQUETTE DE PRESENTATION (2026-09-15) : noindex tant que le site n'est
-     pas livre sur le domaine du client. A la livraison : retirer cette
-     balise, passer canonical, og:url et le sitemap sur le vrai domaine. -->
+<title>L'encre &amp; la Lame — Barbier et tatoueur à Lespignan · Deux univers, un lieu</title>
+<meta name="description" content="L'encre & la Lame, barbier, coiffeur homme et tatoueur à Lespignan (34710), près de Béziers. La lame pour la coupe et la barbe, l'encre pour le tatouage : deux univers, un lieu. Ouverture prochainement.">
+<!-- MAQUETTE PREMIUM DE PRESENTATION (2026-09-15) : noindex tant que le
+     site n'est pas livre sur le domaine du client. A la livraison : retirer
+     cette balise, passer canonical, og:url et le sitemap sur le vrai domaine.
+     La version sobre reste dans /version-sobre/. -->
 <meta name="robots" content="noindex, follow">
 <link rel="canonical" href="https://shigyn.github.io/lencretlalame/">
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:site_name" content="L'encre & la Lame">
-<meta property="og:title" content="L'encre & la Lame — Barbier et tatoueur à Lespignan">
-<meta property="og:description" content="Coiffeur homme, barbier et tatoueur. Deux univers, une adresse, à Lespignan.">
+<meta property="og:title" content="L'encre & la Lame — Deux univers, un lieu">
+<meta property="og:description" content="Barbier, coiffeur homme et tatoueur à Lespignan.">
 <meta property="og:url" content="https://shigyn.github.io/lencretlalame/">
 <meta property="og:image" content="https://shigyn.github.io/lencretlalame/photos/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#0F241D">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230F241D' stroke='%23C8A25A' stroke-width='3'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' font-style='italic' text-anchor='middle' fill='%23C8A25A'%3E%26%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#0B0B0A">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230B0B0A' stroke='%23C8A25A' stroke-width='3'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' font-style='italic' text-anchor='middle' fill='%23C8A25A'%3E%26%3C/text%3E%3C/svg%3E">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="photos/hero-1200.webp" imagesrcset="photos/hero-mobile.webp 900w, photos/hero-1200.webp 1200w, photos/hero-2000.webp 2000w" imagesizes="100vw">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="photos/lame-hero.webp">
+<link rel="preload" as="image" href="photos/encre-hero.webp">
 
 <script type="application/ld+json">
 {
@@ -34,7 +36,8 @@
   "@id": "https://shigyn.github.io/lencretlalame/#salon",
   "name": "L'encre & la Lame",
   "alternateName": ["L'encre et la Lame", "Lencre et la Lame"],
-  "description": "Coiffeur homme, barbier et tatoueur à Lespignan : coupe, dégradé, barbe et tatouage sur mesure.",
+  "slogan": "Deux univers, un lieu",
+  "description": "Barbier, coiffeur homme et tatoueur à Lespignan : coupe, dégradé, barbe et tatouage sur mesure.",
   "url": "https://shigyn.github.io/lencretlalame/",
   "image": "https://shigyn.github.io/lencretlalame/photos/og.jpg",
   "address": {
@@ -52,160 +55,228 @@
 
 <style>
 :root {
-  --nuit: #0F241D;
-  --foret: #163428;
-  --sapin: #1F4637;
+  --charbon: #0B0B0A;
+  --charbon-2: #151513;
+  --foret: #0D2820;
+  --foret-2: #133529;
+  --jade: #6FA58C;
   --or: #C8A25A;
   --or-clair: #E3CB93;
-  --creme: #F2ECE0;
-  --papier: #FAF7F0;
-  --encre: #121A16;
-  --texte-sombre: #E9E2D2;
-  --doux-sombre: #A7B2A8;
-  --doux-clair: #5A6660;
+  --creme: #EFE6D4;
+  --papier: #F6F1E7;
+  --texte-nuit: #E7DFCF;
+  --doux-nuit: #9E9A90;
+  --doux-foret: #A3B8AD;
+  --doux-clair: #5F5A50;
   --titre: 'Cormorant Garamond', Georgia, serif;
   --capitales: 'Cinzel', Georgia, serif;
   --texte: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --courbe: cubic-bezier(.2, .7, .2, 1);
+  --courbe: cubic-bezier(.22, .8, .2, 1);
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E");
 }
 *, *::before, *::after { box-sizing: border-box }
-html { scroll-behavior: smooth; scroll-padding-top: 80px }
-body { margin: 0; font-family: var(--texte); font-size: 17px; line-height: 1.65; color: var(--encre); background: var(--papier); -webkit-font-smoothing: antialiased }
+html { scroll-behavior: smooth; scroll-padding-top: 72px }
+body { margin: 0; font-family: var(--texte); font-size: 17px; line-height: 1.65; color: var(--texte-nuit); background: var(--charbon); -webkit-font-smoothing: antialiased }
 img { display: block; max-width: 100%; height: auto }
 a { color: inherit }
-h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.05; margin: 0; letter-spacing: -.01em; text-wrap: balance }
+h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.02; margin: 0; letter-spacing: -.01em; text-wrap: balance }
 p { margin: 0 }
-.wrap { width: min(1180px, 100% - 44px); margin-inline: auto }
-.capitales { font-family: var(--capitales); font-size: 13px; letter-spacing: .22em; text-transform: uppercase }
+.wrap { width: min(1200px, 100% - 44px); margin-inline: auto }
+.capitales { font-family: var(--capitales); font-size: 12.5px; letter-spacing: .26em; text-transform: uppercase }
+.grain::after { content: ''; position: absolute; inset: 0; background: var(--grain); opacity: .08; mix-blend-mode: overlay; pointer-events: none }
 
-/* ---------- entete ---------- */
-.entete { position: fixed; inset: 0 0 auto; z-index: 20; transition: background .4s, box-shadow .4s }
-.entete.plein { background: rgba(15, 36, 29, .94); backdrop-filter: blur(10px); box-shadow: 0 1px 0 rgba(200, 162, 90, .18) }
-.entete-in { display: flex; align-items: center; gap: 24px; height: 76px }
-.marque { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--creme) }
-.emblème, .embleme { width: 44px; height: 44px; flex: none }
-.marque span { font-family: var(--capitales); font-size: 15px; letter-spacing: .12em; line-height: 1.1 }
-.marque small { display: block; font-family: var(--texte); font-size: 10.5px; letter-spacing: .2em; color: var(--or-clair); margin-top: 3px }
-.nav { margin-left: auto; display: flex; align-items: center; gap: 28px }
-.nav a { text-decoration: none; color: var(--texte-sombre); font-size: 14.5px; font-weight: 500 }
+/* ---------------- entete ---------------- */
+.entete { position: fixed; inset: 0 0 auto; z-index: 40; transition: background .45s, box-shadow .45s }
+.entete.plein { background: rgba(11, 11, 10, .9); backdrop-filter: blur(12px); box-shadow: 0 1px 0 rgba(200, 162, 90, .16) }
+.entete-in { display: flex; align-items: center; gap: 24px; height: 72px }
+.marque { font-family: var(--capitales); font-size: 14px; letter-spacing: .16em; text-decoration: none; color: var(--creme); opacity: 0; transition: opacity .45s }
+.entete.plein .marque { opacity: 1 }
+.nav { margin-left: auto; display: flex; align-items: center; gap: 30px }
+.nav a { text-decoration: none; font-size: 14px; font-weight: 500; color: var(--texte-nuit) }
 .nav a:hover { color: var(--or-clair) }
 .bt { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 50px; padding: 0 26px; border-radius: 999px; font-weight: 600; font-size: 15px; text-decoration: none; transition: background .25s, color .25s, border-color .25s, transform .25s }
 .bt svg { width: 18px; height: 18px }
-.bt-or { background: var(--or); color: var(--nuit) }
+.bt-or { background: var(--or); color: var(--charbon) }
 .bt-or:hover { background: var(--or-clair); transform: translateY(-1px) }
-.bt-ligne { border: 1px solid rgba(227, 203, 147, .55); color: var(--creme) }
+.bt-ligne { border: 1px solid rgba(227, 203, 147, .5); color: var(--creme) }
 .bt-ligne:hover { border-color: var(--or-clair); color: var(--or-clair) }
-.nav .bt { min-height: 42px; padding: 0 18px; font-size: 14px }
-@media (max-width: 860px) { .nav a:not(.bt) { display: none } }
-@media (max-width: 420px) { .marque small { display: none } .nav .bt span { display: none } .nav .bt { padding: 0 13px } }
+.nav .bt { min-height: 40px; padding: 0 16px; font-size: 13.5px }
+@media (max-width: 860px) { .nav a:not(.bt) { display: none } .marque { opacity: 1 } }
 
-/* ---------- hero ---------- */
-.hero { position: relative; min-height: 100svh; display: grid; align-items: end; color: var(--creme); overflow: hidden; background: var(--nuit) }
-.hero-fond { position: absolute; inset: 0 }
-.hero-fond img { width: 100%; height: 100%; object-fit: cover; animation: respire 18s ease-out both }
-@keyframes respire { from { transform: scale(1.08) } to { transform: scale(1) } }
-.hero-voile { position: absolute; inset: 0; background:
-  linear-gradient(180deg, rgba(15, 36, 29, .55) 0%, rgba(15, 36, 29, .15) 35%, rgba(15, 36, 29, .78) 72%, rgba(15, 36, 29, .96) 100%) }
-.hero-in { position: relative; padding: 140px 0 clamp(56px, 9vh, 96px) }
-.hero-badge { display: inline-flex; align-items: center; gap: 10px; padding: 8px 16px 8px 12px; border-radius: 999px; border: 1px solid rgba(227, 203, 147, .45); color: var(--or-clair); background: rgba(15, 36, 29, .45) }
-.hero-badge i { width: 8px; height: 8px; border-radius: 50%; background: var(--or); box-shadow: 0 0 0 0 rgba(200, 162, 90, .7); animation: pouls 2.4s infinite }
-@keyframes pouls { 70% { box-shadow: 0 0 0 10px rgba(200, 162, 90, 0) } 100% { box-shadow: 0 0 0 0 rgba(200, 162, 90, 0) } }
-.hero h1 { font-family: var(--capitales); font-weight: 600; font-size: clamp(42px, 8.4vw, 112px); letter-spacing: .02em; line-height: .98; margin-top: 26px }
-.hero h1 em { font-family: var(--titre); font-style: italic; font-weight: 500; color: var(--or); letter-spacing: 0 }
-.hero-metiers { margin-top: 18px; font-size: clamp(16px, 1.6vw, 19px); color: var(--texte-sombre) }
-.hero-devise { font-family: var(--titre); font-style: italic; font-size: clamp(26px, 3.2vw, 40px); color: var(--or-clair); margin-top: 22px }
-.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px }
-@media (max-width: 760px) { .hero-in { padding-bottom: 104px } }
+/* ---------------- la scene : deux univers ---------------- */
+.scene { position: relative; display: flex; height: 100svh; min-height: 620px; overflow: hidden; background: var(--charbon) }
+.moitie { position: relative; flex: 1; overflow: hidden; text-decoration: none; color: var(--creme); isolation: isolate; transition: flex 1.1s var(--courbe) }
+.moitie img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -3; transform: scale(1.06); transition: transform 1.6s var(--courbe), filter 1.1s var(--courbe) }
+.moitie::before { content: ''; position: absolute; inset: 0; z-index: -2; transition: opacity 1.1s var(--courbe) }
+.lame::before { background: linear-gradient(180deg, rgba(11, 11, 10, .55), rgba(11, 11, 10, .25) 40%, rgba(11, 11, 10, .92)), linear-gradient(90deg, rgba(11, 11, 10, .2), rgba(11, 11, 10, .55)) }
+.encre::before { background: linear-gradient(180deg, rgba(13, 40, 32, .6), rgba(13, 40, 32, .3) 40%, rgba(13, 40, 32, .94)), linear-gradient(270deg, rgba(13, 40, 32, .15), rgba(13, 40, 32, .6)) }
+.lame img { filter: grayscale(.35) contrast(1.05) sepia(.15) }
+.encre img { filter: grayscale(.25) contrast(1.05) hue-rotate(-8deg) }
+.moitie-txt { position: absolute; inset: auto 0 0; padding: 0 clamp(26px, 5vw, 72px) clamp(40px, 8vh, 84px); display: grid; gap: 12px; transition: transform 1.1s var(--courbe) }
+.lame .moitie-txt { justify-items: start }
+.encre .moitie-txt { justify-items: end; text-align: right }
+.moitie .capitales { color: var(--or-clair) }
+.encre .capitales { color: var(--jade) }
+.moitie h2 { font-size: clamp(40px, 5vw, 76px); font-style: italic; font-weight: 500 }
+.moitie p { max-width: 30ch; color: var(--texte-nuit); font-size: 16px; opacity: .88 }
+.moitie .aller { display: inline-flex; gap: 10px; align-items: center; margin-top: 6px; font-size: 14px; font-weight: 600; letter-spacing: .04em; color: var(--or-clair) }
+.encre .aller { color: var(--jade) }
+.aller i { display: block; width: 36px; height: 1px; background: currentColor; transition: width .6s var(--courbe) }
+.moitie:hover .aller i, .moitie:focus-visible .aller i { width: 64px }
 
-/* ---------- sections ---------- */
-section { padding: clamp(80px, 11vw, 140px) 0 }
-.sombre { background: var(--nuit); color: var(--texte-sombre) }
-.foret { background: var(--foret); color: var(--texte-sombre) }
-.tete { display: grid; gap: 16px; max-width: 760px; margin-bottom: clamp(40px, 6vw, 64px) }
-.tete .capitales { color: var(--or) }
-.clair .tete .capitales { color: #8C6A2A }
-.tete h2 { font-size: clamp(40px, 5.4vw, 68px) }
-.tete p { font-size: 18.5px; color: var(--doux-clair); max-width: 58ch }
-.sombre .tete p, .foret .tete p { color: var(--doux-sombre) }
-.sombre h2, .foret h2 { color: var(--creme) }
+/* Le cote survole prend la place ; l'autre s'efface un peu. */
+@media (hover: hover) and (min-width: 761px) {
+  .scene[data-cote="lame"] .lame, .scene[data-cote="encre"] .encre { flex: 1.45 }
+  .scene[data-cote="lame"] .lame img, .scene[data-cote="encre"] .encre img { transform: scale(1) ; filter: none }
+  .scene[data-cote="lame"] .encre img, .scene[data-cote="encre"] .lame img { filter: grayscale(1) brightness(.55) }
+}
+.scene[data-cote="lame"] .sceau { left: calc(100% * 1.45 / 2.45) }
+.scene[data-cote="encre"] .sceau { left: calc(100% / 2.45) }
 
-/* deux univers */
-.univers { display: grid; gap: 18px; grid-template-columns: 1fr 1fr }
-@media (max-width: 760px) { .univers { grid-template-columns: 1fr } }
-.carte-univers { position: relative; display: block; overflow: hidden; border-radius: 22px; min-height: 520px; text-decoration: none; color: var(--creme); isolation: isolate }
-.carte-univers img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; transition: transform 1.2s var(--courbe) }
-.carte-univers::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(15, 36, 29, 0) 35%, rgba(15, 36, 29, .92) 100%) }
-.carte-univers:hover img { transform: scale(1.05) }
-.carte-univers-txt { position: absolute; inset: auto 0 0; padding: 34px; display: grid; gap: 10px }
-.carte-univers .capitales { color: var(--or-clair) }
-.carte-univers h3 { font-size: clamp(34px, 4vw, 48px) }
-.carte-univers p { color: var(--texte-sombre); max-width: 40ch }
-.fleche { display: inline-flex; gap: 8px; align-items: center; color: var(--or-clair); font-weight: 600; font-size: 15px; margin-top: 6px }
+/* la couture et le sceau */
+.couture { position: absolute; top: 0; bottom: 0; left: 50%; width: 1px; background: linear-gradient(180deg, transparent, rgba(200, 162, 90, .7) 30%, rgba(200, 162, 90, .7) 70%, transparent); pointer-events: none; transition: left 1.1s var(--courbe); z-index: 2 }
+.scene[data-cote="lame"] .couture { left: calc(100% * 1.45 / 2.45) }
+.scene[data-cote="encre"] .couture { left: calc(100% / 2.45) }
+.sceau { position: absolute; top: 46%; left: 50%; z-index: 3; transform: translate(-50%, -50%); width: clamp(240px, 26vw, 330px); aspect-ratio: 1; border-radius: 50%; display: grid; place-content: center; justify-items: center; gap: 8px; text-align: center; padding: 30px;
+  background: radial-gradient(circle at 50% 40%, rgba(21, 21, 19, .92), rgba(11, 11, 10, .96)); border: 1px solid rgba(200, 162, 90, .75); box-shadow: 0 0 0 10px rgba(11, 11, 10, .35), 0 0 0 11px rgba(200, 162, 90, .28), 0 30px 80px rgba(0, 0, 0, .55);
+  transition: left 1.1s var(--courbe); pointer-events: none }
+.sceau .etoile { font-family: var(--titre); font-style: italic; font-size: clamp(52px, 5.4vw, 72px); line-height: .8; color: var(--or) }
+.sceau h1 { font-family: var(--capitales); font-weight: 600; font-size: clamp(17px, 1.8vw, 23px); letter-spacing: .12em; color: var(--creme); line-height: 1.25 }
+.sceau .devise { font-family: var(--titre); font-style: italic; font-size: clamp(17px, 1.6vw, 21px); color: var(--or-clair) }
+.sceau .lieu { font-size: 10.5px; letter-spacing: .3em; text-transform: uppercase; color: var(--doux-nuit) }
+.ouverture { position: absolute; z-index: 3; left: 50%; top: calc(46% + clamp(150px, 16vw, 200px)); transform: translateX(-50%); display: inline-flex; align-items: center; gap: 10px; padding: 8px 16px; border-radius: 999px; background: rgba(11, 11, 10, .7); border: 1px solid rgba(200, 162, 90, .45); color: var(--or-clair); white-space: nowrap; transition: left 1.1s var(--courbe); pointer-events: none }
+.scene[data-cote="lame"] .ouverture { left: calc(100% * 1.45 / 2.45) }
+.scene[data-cote="encre"] .ouverture { left: calc(100% / 2.45) }
+.ouverture i { width: 7px; height: 7px; border-radius: 50%; background: var(--or); animation: pouls 2.4s infinite }
+@keyframes pouls { 0% { box-shadow: 0 0 0 0 rgba(200, 162, 90, .7) } 70% { box-shadow: 0 0 0 10px rgba(200, 162, 90, 0) } 100% { box-shadow: 0 0 0 0 rgba(200, 162, 90, 0) } }
 
-/* prestations */
-.duo { display: grid; gap: clamp(36px, 6vw, 80px); grid-template-columns: 1.05fr .95fr; align-items: center }
-.duo.inverse { grid-template-columns: .95fr 1.05fr }
-.duo.inverse .duo-photo { order: -1 }
-@media (max-width: 860px) { .duo, .duo.inverse { grid-template-columns: 1fr } .duo.inverse .duo-photo { order: 0 } }
-.duo-photo { position: relative }
-.duo-photo img { border-radius: 22px; width: 100%; aspect-ratio: 4 / 5; object-fit: cover }
-.duo-photo .cadre { position: absolute; inset: 18px -18px -18px 18px; border: 1px solid rgba(200, 162, 90, .5); border-radius: 22px; z-index: -1 }
-.duo-photo { isolation: isolate }
-.liste { list-style: none; margin: 30px 0 0; padding: 0; display: grid }
-.liste li { display: grid; grid-template-columns: 1fr auto; gap: 4px 20px; padding: 18px 0; border-bottom: 1px solid rgba(200, 162, 90, .22) }
-.liste li:first-child { border-top: 1px solid rgba(200, 162, 90, .22) }
-.liste b { font-family: var(--titre); font-size: 25px; font-weight: 600; color: var(--creme) }
-.liste span { grid-column: 1; font-size: 15px; color: var(--doux-sombre) }
-.liste em { grid-row: 1 / span 2; grid-column: 2; align-self: center; font-style: normal; font-size: 13px; letter-spacing: .08em; color: var(--or-clair); white-space: nowrap }
-.clair .liste li { border-color: rgba(18, 26, 22, .12) }
-.clair .liste b { color: var(--encre) }
-.clair .liste span { color: var(--doux-clair) }
-.clair .liste em { color: #8C6A2A }
-.note { margin-top: 22px; font-size: 14.5px; color: var(--doux-sombre) }
-.clair .note { color: var(--doux-clair) }
+/* telephone : les deux univers l'un sur l'autre, le sceau sur la couture */
+@media (max-width: 760px) {
+  .scene { flex-direction: column; min-height: 640px }
+  .moitie-txt { padding: 0 24px 26px }
+  .lame .moitie-txt { padding-bottom: 110px }
+  .encre .moitie-txt { justify-items: start; text-align: left; inset: auto 0 0; padding-bottom: 76px }
+  .moitie h2 { font-size: 40px }
+  .moitie p { display: none }
+  .couture { top: 50%; bottom: auto; left: 0; right: 0; width: auto; height: 1px; background: linear-gradient(90deg, transparent, rgba(200, 162, 90, .7), transparent) }
+  .sceau { top: 50%; width: 176px; padding: 18px; gap: 4px; box-shadow: 0 0 0 6px rgba(11, 11, 10, .35), 0 0 0 7px rgba(200, 162, 90, .28), 0 20px 50px rgba(0, 0, 0, .55) }
+  .sceau .etoile { font-size: 42px }
+  .sceau h1 { font-size: 13.5px }
+  .sceau .devise { font-size: 15px }
+  .sceau .lieu { display: none }
+  .ouverture { top: auto; bottom: 18px; left: 50% !important; font-size: 10.5px }
+  .scene[data-cote] .sceau, .scene[data-cote] .couture { left: 50% }
+  .scene[data-cote] .couture { left: 0 }
+}
 
-/* bandeau devise */
-.devise { position: relative; padding: clamp(90px, 12vw, 150px) 0; text-align: center; background: var(--sapin); color: var(--creme); overflow: hidden }
-.devise::before { content: '&'; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -54%); font-family: var(--titre); font-style: italic; font-size: clamp(260px, 40vw, 520px); color: rgba(200, 162, 90, .09); line-height: 1; pointer-events: none }
-.devise p { position: relative; font-family: var(--titre); font-size: clamp(38px, 6vw, 76px); line-height: 1.05 }
-.devise p em { color: var(--or); }
-.devise .capitales { position: relative; display: block; margin-top: 20px; color: var(--or-clair) }
+/* ---------------- manifeste ---------------- */
+.manifeste { position: relative; padding: clamp(96px, 13vw, 170px) 0; background: var(--charbon); text-align: center; overflow: hidden }
+.manifeste p.grand { font-family: var(--titre); font-size: clamp(34px, 4.6vw, 64px); line-height: 1.12; color: var(--creme); max-width: 22ch; margin: 22px auto 0 }
+.manifeste em { font-style: italic; color: var(--or) }
+.manifeste em.vert { color: var(--jade) }
+.manifeste .capitales { color: var(--doux-nuit) }
+.filet { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 40px; color: var(--or) }
+.filet::before, .filet::after { content: ''; width: 90px; height: 1px; background: currentColor; opacity: .6 }
 
-/* infos */
-.infos { display: grid; gap: 18px; grid-template-columns: repeat(3, 1fr) }
-@media (max-width: 860px) { .infos { grid-template-columns: 1fr } }
-.info { background: #fff; border: 1px solid rgba(18, 26, 22, .08); border-radius: 20px; padding: 30px; display: grid; gap: 10px; align-content: start }
-.info .capitales { color: #8C6A2A; font-size: 12px }
+/* ---------------- univers detailles ---------------- */
+.univers { position: relative; padding: clamp(90px, 12vw, 150px) 0; overflow: hidden }
+.univers-lame { background: var(--charbon-2) }
+.univers-encre { background: var(--foret); color: #E3EBE5 }
+.grille { display: grid; gap: clamp(40px, 6vw, 90px); grid-template-columns: 1fr 1fr; align-items: start }
+.univers-encre .grille { grid-template-columns: 1fr 1fr }
+@media (max-width: 900px) { .grille, .univers-encre .grille { grid-template-columns: 1fr } }
+.numero { font-family: var(--titre); font-style: italic; font-size: clamp(110px, 14vw, 200px); line-height: .8; color: transparent; -webkit-text-stroke: 1px rgba(200, 162, 90, .45) }
+.univers-encre .numero { -webkit-text-stroke-color: rgba(111, 165, 140, .5) }
+.univers h2 { font-size: clamp(44px, 5.6vw, 80px); color: var(--creme); margin-top: 14px }
+.univers h2 em { font-style: italic; font-weight: 500; color: var(--or) }
+.univers-encre h2 em { color: var(--jade) }
+.univers .intro { margin-top: 22px; font-size: 18.5px; color: var(--doux-nuit); max-width: 46ch }
+.univers-encre .intro { color: var(--doux-foret) }
+.univers .capitales { color: var(--or-clair) }
+.univers-encre .capitales { color: var(--jade) }
+
+.liste { list-style: none; margin: 38px 0 0; padding: 0 }
+.liste li { display: grid; grid-template-columns: auto 1fr auto; align-items: baseline; gap: 4px 16px; padding: 18px 0; border-bottom: 1px solid rgba(200, 162, 90, .18) }
+.univers-encre .liste li { border-color: rgba(111, 165, 140, .22) }
+.liste b { font-family: var(--titre); font-size: 26px; font-weight: 600; color: var(--creme); white-space: nowrap }
+.liste .pointilles { border-bottom: 1px dotted rgba(200, 162, 90, .35); transform: translateY(-6px) }
+.univers-encre .liste .pointilles { border-color: rgba(111, 165, 140, .4) }
+.liste em { font-style: normal; font-size: 12.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--or-clair); white-space: nowrap }
+.univers-encre .liste em { color: var(--jade) }
+.liste span.detail { grid-column: 1 / -1; font-size: 15px; color: var(--doux-nuit) }
+.univers-encre .liste span.detail { color: var(--doux-foret) }
+@media (max-width: 480px) { .liste b { font-size: 22px; white-space: normal } .liste .pointilles { display: none } .liste li { grid-template-columns: 1fr auto } }
+.note { margin-top: 20px; font-size: 14.5px; color: var(--doux-nuit) }
+.univers-encre .note { color: var(--doux-foret) }
+
+.photos { position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start }
+.photos img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 4px }
+.photos img:nth-child(2) { margin-top: 90px }
+.photos figure { margin: 0 }
+.univers-lame .photos img { filter: grayscale(.25) sepia(.1) }
+@media (max-width: 900px) { .photos img:nth-child(2) { margin-top: 40px } }
+
+.etapes { list-style: none; padding: 0; margin: 46px 0 0; display: grid; gap: 14px; grid-template-columns: repeat(3, 1fr); counter-reset: etape }
+@media (max-width: 700px) { .etapes { grid-template-columns: 1fr } }
+.etapes li { counter-increment: etape; padding: 24px 22px; border: 1px solid rgba(111, 165, 140, .28); border-radius: 4px; background: rgba(19, 53, 41, .5) }
+.etapes li::before { content: counter(etape, decimal-leading-zero); display: block; font-family: var(--capitales); font-size: 13px; letter-spacing: .2em; color: var(--jade); margin-bottom: 10px }
+.etapes b { display: block; font-family: var(--titre); font-size: 24px; color: var(--creme); margin-bottom: 6px }
+.etapes p { font-size: 15px; color: var(--doux-foret) }
+
+/* ---------------- bandeau defilant ---------------- */
+.defile { overflow: hidden; background: var(--charbon); border-block: 1px solid rgba(200, 162, 90, .18); padding: 22px 0 }
+.defile-in { display: flex; gap: 44px; width: max-content; animation: defiler 38s linear infinite }
+.defile span { font-family: var(--titre); font-style: italic; font-size: clamp(26px, 3vw, 38px); color: var(--creme); white-space: nowrap }
+.defile span.or { color: var(--or) } .defile span.vert { color: var(--jade) }
+@keyframes defiler { to { transform: translateX(-50%) } }
+
+/* ---------------- le pont ---------------- */
+.pont { background: var(--charbon); padding: clamp(80px, 10vw, 130px) 0 }
+.pont-carte { position: relative; display: grid; gap: 22px; justify-items: center; text-align: center; padding: clamp(40px, 6vw, 70px) 26px; border-radius: 6px; overflow: hidden;
+  background: linear-gradient(110deg, var(--charbon-2) 0 50%, var(--foret-2) 50% 100%); border: 1px solid rgba(200, 162, 90, .3) }
+.pont-carte h2 { font-size: clamp(34px, 4.4vw, 58px); color: var(--creme); max-width: 20ch }
+.pont-carte h2 em { font-style: italic; font-weight: 500; color: var(--or) }
+.pont-carte h2 em.vert { color: var(--jade) }
+.pont-carte p { color: var(--texte-nuit); max-width: 50ch }
+
+/* ---------------- infos ---------------- */
+.infos { background: var(--papier); color: #1A1814; padding: clamp(90px, 12vw, 140px) 0 }
+.infos .tete { display: grid; gap: 14px; margin-bottom: 44px }
+.infos .capitales { color: #8C6A2A }
+.infos h2 { font-size: clamp(42px, 5vw, 70px) }
+.cartes-infos { display: grid; gap: 16px; grid-template-columns: repeat(3, 1fr) }
+@media (max-width: 860px) { .cartes-infos { grid-template-columns: 1fr } }
+.info { background: #fff; border: 1px solid rgba(26, 24, 20, .08); border-radius: 6px; padding: 30px; display: grid; gap: 10px; align-content: start }
 .info h3 { font-size: 28px }
 .info p { color: var(--doux-clair) }
-.info a:not(.bt) { color: var(--encre); font-weight: 600; text-underline-offset: 4px }
-.info .bt { justify-self: start; margin-top: 8px; background: var(--nuit); color: var(--creme) }
-.info .bt:hover { background: var(--sapin) }
-.carte-plan { margin-top: 18px; border-radius: 20px; overflow: hidden; border: 1px solid rgba(18, 26, 22, .08); aspect-ratio: 21 / 8; background: var(--creme) }
-.carte-plan iframe { width: 100%; height: 100%; border: 0; filter: grayscale(.35) contrast(1.02) }
-@media (max-width: 760px) { .carte-plan { aspect-ratio: 4 / 3 } }
+.info .bt { justify-self: start; margin-top: 8px; background: var(--charbon); color: var(--creme) }
+.info .bt:hover { background: var(--foret) }
+.plan { margin-top: 16px; border-radius: 6px; overflow: hidden; aspect-ratio: 21 / 8; border: 1px solid rgba(26, 24, 20, .08); background: var(--creme) }
+.plan iframe { width: 100%; height: 100%; border: 0; filter: grayscale(.55) contrast(1.05) }
+@media (max-width: 760px) { .plan { aspect-ratio: 4 / 3 } }
 
-/* pied */
-.pied { background: var(--nuit); color: var(--doux-sombre); padding: 48px 0 110px; font-size: 14px }
+/* ---------------- pied ---------------- */
+.pied { background: var(--charbon); color: var(--doux-nuit); padding: 46px 0 110px; font-size: 14px; border-top: 1px solid rgba(200, 162, 90, .14) }
 .pied-in { display: flex; flex-wrap: wrap; gap: 14px 30px; justify-content: space-between; align-items: center }
 .pied a { color: var(--or-clair); text-underline-offset: 3px }
-@media (min-width: 761px) { .pied { padding-bottom: 48px } }
-
-/* barre mobile */
-.barre { position: fixed; inset: auto 12px 12px; z-index: 30; display: none; gap: 8px; padding: 8px; border-radius: 999px; background: rgba(15, 36, 29, .95); box-shadow: 0 16px 40px rgba(0, 0, 0, .35); backdrop-filter: blur(8px) }
+@media (min-width: 761px) { .pied { padding-bottom: 46px } }
+.barre { position: fixed; inset: auto 12px 12px; z-index: 50; display: none; gap: 8px; padding: 8px; border-radius: 999px; background: rgba(11, 11, 10, .95); box-shadow: 0 16px 40px rgba(0, 0, 0, .45); backdrop-filter: blur(8px); transform: translateY(140%); transition: transform .5s var(--courbe) }
+.barre.visible { transform: none }
 .barre a { flex: 1; min-height: 48px }
 @media (max-width: 760px) { .barre { display: flex } }
 
-/* apparitions */
-.reveal { opacity: 0; transform: translateY(24px); transition: opacity 1s var(--courbe), transform 1s var(--courbe) }
+/* ---------------- apparitions ---------------- */
+.reveal { opacity: 0; transform: translateY(26px); transition: opacity 1.1s var(--courbe), transform 1.1s var(--courbe) }
 .reveal.vu { opacity: 1; transform: none }
-.hero .reveal { opacity: 1; transform: none; animation: monte 1.1s var(--courbe) both }
-.hero .reveal:nth-child(2) { animation-delay: .1s } .hero .reveal:nth-child(3) { animation-delay: .18s }
-.hero .reveal:nth-child(4) { animation-delay: .26s } .hero .reveal:nth-child(5) { animation-delay: .34s }
-@keyframes monte { from { transform: translateY(22px); opacity: .001 } to { transform: none; opacity: 1 } }
+.scene .sceau { animation: sceau 1.4s var(--courbe) both .2s }
+@keyframes sceau { from { opacity: 0; transform: translate(-50%, -50%) scale(.9) } to { opacity: 1; transform: translate(-50%, -50%) scale(1) } }
+.moitie-txt { animation: leve 1.3s var(--courbe) both .5s }
+.encre .moitie-txt { animation-delay: .65s }
+@keyframes leve { from { opacity: 0; transform: translateY(24px) } to { opacity: 1; transform: none } }
 @media (prefers-reduced-motion: reduce) {
-  .reveal, .hero .reveal { opacity: 1; transform: none; transition: none; animation: none }
-  .hero-fond img, .hero-badge i { animation: none }
+  .reveal { opacity: 1; transform: none; transition: none }
+  .scene .sceau, .moitie-txt, .defile-in, .ouverture i { animation: none }
+  .moitie, .moitie img, .sceau, .couture, .ouverture { transition: none }
   html { scroll-behavior: auto }
 }
 :focus-visible { outline: 2px solid var(--or); outline-offset: 3px }
@@ -216,17 +287,14 @@ section { padding: clamp(80px, 11vw, 140px) 0 }
 
 <header class="entete" id="entete">
   <div class="wrap entete-in">
-    <a class="marque" href="#top" aria-label="L'encre & la Lame, accueil">
-      <svg class="embleme" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="none" stroke="#C8A25A" stroke-width="1.6"/><circle cx="32" cy="32" r="25.5" fill="none" stroke="#C8A25A" stroke-width=".8" opacity=".6"/><text x="32" y="43" font-family="Cormorant Garamond, Georgia, serif" font-size="32" font-style="italic" text-anchor="middle" fill="#C8A25A">&amp;</text></svg>
-      <span>L'encre &amp; la Lame<small>Lespignan</small></span>
-    </a>
+    <a class="marque" href="#top">L'encre &amp; la Lame</a>
     <nav class="nav" aria-label="Navigation">
-      <a href="#barbier">Barbier</a>
-      <a href="#tatouage">Tatouage</a>
-      <a href="#infos">Infos</a>
+      <a href="#la-lame">La Lame</a>
+      <a href="#l-encre">L'Encre</a>
+      <a href="#le-lieu">Le lieu</a>
       <a class="bt bt-or" href="https://www.instagram.com/lencreetlalame/" target="_blank" rel="noopener" aria-label="Instagram de L'encre & la Lame">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
-        <span>Instagram</span>
+        Instagram
       </a>
     </nav>
   </div>
@@ -234,143 +302,145 @@ section { padding: clamp(80px, 11vw, 140px) 0 }
 
 <main id="top">
 
-  <!-- =============================== HERO ============================== -->
-  <section class="hero" style="padding:0">
-    <div class="hero-fond">
-      <img data-editable-zone="hero_photo" src="photos/hero-1200.webp"
-           srcset="photos/hero-mobile.webp 900w, photos/hero-1200.webp 1200w, photos/hero-2000.webp 2000w"
-           sizes="100vw" alt="L'intérieur d'un salon de barbier, fauteuils et miroirs éclairés"
-           width="2000" height="1250" fetchpriority="high" decoding="async">
-    </div>
-    <div class="hero-voile" aria-hidden="true"></div>
-    <div class="hero-in">
-      <div class="wrap">
-        <p class="hero-badge capitales reveal" data-editable-zone="hero_badge"><i aria-hidden="true"></i>Ouverture prochainement</p>
-        <h1 class="reveal" data-editable-zone="hero_titre">L'encre <em>&amp;</em><br>la Lame</h1>
-        <p class="hero-metiers reveal" data-editable-zone="hero_metiers">Coiffeur homme · Barbier · Tatoueur — Lespignan</p>
-        <p class="hero-devise reveal" data-editable-zone="hero_devise">Deux univers. Une adresse.</p>
-        <div class="hero-actions reveal">
-          <a class="bt bt-or" href="https://www.instagram.com/lencreetlalame/" target="_blank" rel="noopener" data-editable-zone="hero_cta">Suivre l'ouverture sur Instagram</a>
-          <a class="bt bt-ligne" href="#infos">Nous trouver</a>
-        </div>
+  <!-- ====================== LA SCENE : DEUX UNIVERS ===================== -->
+  <!-- Le hero est coupe en deux : a gauche la Lame, a droite l'Encre. Au
+       survol, le cote choisi s'ouvre et l'autre s'efface ; le sceau glisse
+       avec la couture. Sur telephone, les deux univers s'empilent. -->
+  <section class="scene" id="scene" aria-label="Deux univers, un lieu">
+    <a class="moitie lame grain" href="#la-lame" data-cote="lame">
+      <img data-editable-zone="scene_photo_lame" src="photos/lame-hero.webp" alt="Un barbier au travail dans un salon aux fauteuils de cuir" width="1200" height="1500" fetchpriority="high" decoding="async">
+      <div class="moitie-txt">
+        <p class="capitales">I — La Lame</p>
+        <h2 data-editable-zone="scene_lame_titre">Coupe &amp; barbe</h2>
+        <p data-editable-zone="scene_lame_texte">Des lignes nettes, un dégradé précis, une barbe taillée au rasoir.</p>
+        <span class="aller"><i aria-hidden="true"></i>Entrer côté lame</span>
       </div>
+    </a>
+    <a class="moitie encre grain" href="#l-encre" data-cote="encre">
+      <img data-editable-zone="scene_photo_encre" src="photos/encre-hero.webp" alt="Un tatoueur ganté trace un tatouage à la machine" width="1200" height="1500" fetchpriority="high" decoding="async">
+      <div class="moitie-txt">
+        <p class="capitales">II — L'Encre</p>
+        <h2 data-editable-zone="scene_encre_titre">Tatouage</h2>
+        <p data-editable-zone="scene_encre_texte">Des projets dessinés avec vous, du premier croquis à la dernière ligne.</p>
+        <span class="aller">Entrer côté encre<i aria-hidden="true"></i></span>
+      </div>
+    </a>
+
+    <span class="couture" aria-hidden="true"></span>
+    <div class="sceau">
+      <span class="etoile" aria-hidden="true">&amp;</span>
+      <h1 data-editable-zone="scene_nom">L'encre &amp;<br>la Lame</h1>
+      <p class="devise" data-editable-zone="scene_devise">Deux univers, un lieu</p>
+      <p class="lieu">Lespignan · Hérault</p>
     </div>
+    <p class="ouverture capitales" data-editable-zone="scene_ouverture"><i aria-hidden="true"></i>Ouverture prochainement</p>
   </section>
 
-  <!-- ============================ DEUX UNIVERS ========================= -->
-  <section class="clair" id="univers">
-    <div class="wrap">
-      <div class="tete reveal">
-        <p class="capitales">Deux métiers, un seul lieu</p>
-        <h2 data-editable-zone="univers_titre">La lame pour le style, l'encre pour la vie</h2>
-        <p data-editable-zone="univers_intro">Une coupe nette, une barbe taillée au millimètre, ou un tatouage qui vous ressemble : chez L'encre &amp; la Lame, les deux savoir-faire se retrouvent sous le même toit, au cœur de Lespignan.</p>
-      </div>
-      <div class="univers">
-        <a class="carte-univers reveal" href="#barbier">
-          <img data-editable-zone="univers_photo_lame" src="photos/barbier-coupe.webp" alt="Un barbier coiffe une coupe homme avec raie nette" width="900" height="1125" loading="lazy" decoding="async">
-          <div class="carte-univers-txt">
-            <p class="capitales">La Lame</p>
-            <h3 data-editable-zone="univers_lame_titre">Coiffure &amp; barbe</h3>
-            <p data-editable-zone="univers_lame_texte">Coupes homme, dégradés, tailles de barbe et rasage à l'ancienne.</p>
-            <span class="fleche">Les prestations <span aria-hidden="true">→</span></span>
-          </div>
-        </a>
-        <a class="carte-univers reveal" href="#tatouage">
-          <img data-editable-zone="univers_photo_encre" src="photos/tatouage-seance.webp" alt="Un tatoueur ganté travaille un tatouage à la machine" width="900" height="1125" loading="lazy" decoding="async">
-          <div class="carte-univers-txt">
-            <p class="capitales">L'Encre</p>
-            <h3 data-editable-zone="univers_encre_titre">Tatouage</h3>
-            <p data-editable-zone="univers_encre_texte">Projets sur mesure, dessinés avec vous, du premier croquis à la dernière ligne.</p>
-            <span class="fleche">Le tatouage <span aria-hidden="true">→</span></span>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================== BARBIER ============================ -->
-  <section class="sombre" id="barbier">
-    <div class="wrap duo">
-      <div class="reveal">
-        <div class="tete" style="margin-bottom:0">
-          <p class="capitales">La Lame</p>
-          <h2 data-editable-zone="barbier_titre">Coiffeur homme &amp; barbier</h2>
-          <p data-editable-zone="barbier_intro">Le temps de bien faire : un échange sur ce que vous voulez, des gestes précis, et une finition soignée jusqu'au bout de la barbe.</p>
-        </div>
-        <ul class="liste">
-          <li><b data-editable-zone="presta_1_nom">Coupe homme</b><span data-editable-zone="presta_1_texte">Classique ou moderne, aux ciseaux et à la tondeuse</span><em data-editable-zone="presta_1_prix">Tarif à venir</em></li>
-          <li><b data-editable-zone="presta_2_nom">Dégradé</b><span data-editable-zone="presta_2_texte">Fade, contours nets, finition au rasoir</span><em data-editable-zone="presta_2_prix">Tarif à venir</em></li>
-          <li><b data-editable-zone="presta_3_nom">Taille de barbe</b><span data-editable-zone="presta_3_texte">Mise en forme, contours et entretien</span><em data-editable-zone="presta_3_prix">Tarif à venir</em></li>
-          <li><b data-editable-zone="presta_4_nom">Rasage à l'ancienne</b><span data-editable-zone="presta_4_texte">Serviette chaude et rasoir</span><em data-editable-zone="presta_4_prix">Tarif à venir</em></li>
-          <li><b data-editable-zone="presta_5_nom">Coupe + barbe</b><span data-editable-zone="presta_5_texte">La formule complète</span><em data-editable-zone="presta_5_prix">Tarif à venir</em></li>
-        </ul>
-        <p class="note" data-editable-zone="barbier_note">Les tarifs et les horaires seront annoncés à l'ouverture.</p>
-      </div>
-      <div class="duo-photo reveal">
-        <span class="cadre" aria-hidden="true"></span>
-        <img data-editable-zone="barbier_photo" src="photos/barbier-barbe.webp" alt="Un barbier termine une taille de barbe au blaireau" width="900" height="1125" loading="lazy" decoding="async">
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================== TATOUAGE =========================== -->
-  <section class="clair" id="tatouage">
-    <div class="wrap duo inverse">
-      <div class="duo-photo reveal">
-        <span class="cadre" aria-hidden="true"></span>
-        <img data-editable-zone="tatouage_photo" src="photos/tatouage-atelier.webp" alt="Un tatoueur dans son atelier, machine à la main, prêt à commencer" width="900" height="1125" loading="lazy" decoding="async">
-      </div>
-      <div class="reveal">
-        <div class="tete" style="margin-bottom:0">
-          <p class="capitales">L'Encre</p>
-          <h2 data-editable-zone="tatouage_titre">Tatouage sur mesure</h2>
-          <p data-editable-zone="tatouage_intro">Un tatouage se garde toute une vie. Il commence donc par une vraie discussion : votre idée, l'emplacement, la taille, le style. Le dessin se prépare avec vous avant la séance.</p>
-        </div>
-        <ul class="liste">
-          <li><b data-editable-zone="tatou_1_nom">Projet personnalisé</b><span data-editable-zone="tatou_1_texte">Un dessin unique, créé à partir de votre idée</span><em data-editable-zone="tatou_1_prix">Sur devis</em></li>
-          <li><b data-editable-zone="tatou_2_nom">Flash</b><span data-editable-zone="tatou_2_texte">Des motifs prêts à tatouer, disponibles au salon</span><em data-editable-zone="tatou_2_prix">Sur devis</em></li>
-          <li><b data-editable-zone="tatou_3_nom">Retouche</b><span data-editable-zone="tatou_3_texte">Raviver ou reprendre un tatouage existant</span><em data-editable-zone="tatou_3_prix">Sur devis</em></li>
-        </ul>
-        <p class="note" data-editable-zone="tatouage_note">Sur rendez-vous, après un premier échange. Écrivez-nous sur Instagram pour présenter votre projet.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================== DEVISE ============================= -->
-  <div class="devise">
+  <!-- ============================== MANIFESTE =========================== -->
+  <section class="manifeste grain">
     <div class="wrap reveal">
-      <p data-editable-zone="devise_texte">Deux univers.<br><em>Une adresse.</em></p>
-      <span class="capitales">Lespignan · Hérault</span>
+      <p class="capitales">Barbier · Coiffeur homme · Tatoueur</p>
+      <p class="grand" data-editable-zone="manifeste_texte">À Lespignan, une même adresse pour <em>la coupe nette</em> et <em class="vert">l'encre qui reste</em>.</p>
+      <p class="filet" aria-hidden="true">&amp;</p>
+    </div>
+  </section>
+
+  <!-- =============================== LA LAME ============================ -->
+  <section class="univers univers-lame grain" id="la-lame">
+    <div class="wrap grille">
+      <div class="reveal">
+        <span class="numero" aria-hidden="true">I</span>
+        <p class="capitales">La Lame</p>
+        <h2 data-editable-zone="lame_titre">Coiffeur homme <em>&amp;</em> barbier</h2>
+        <p class="intro" data-editable-zone="lame_intro">Le temps de bien faire : on parle de ce que vous voulez, puis les gestes sont précis et la finition soignée, jusqu'au dernier contour de barbe.</p>
+        <ul class="liste">
+          <li><b data-editable-zone="lame_1_nom">Coupe homme</b><span class="pointilles" aria-hidden="true"></span><em data-editable-zone="lame_1_prix">Tarif à venir</em><span class="detail" data-editable-zone="lame_1_texte">Classique ou moderne, ciseaux et tondeuse</span></li>
+          <li><b data-editable-zone="lame_2_nom">Dégradé</b><span class="pointilles" aria-hidden="true"></span><em data-editable-zone="lame_2_prix">Tarif à venir</em><span class="detail" data-editable-zone="lame_2_texte">Fade, contours nets, finition au rasoir</span></li>
+          <li><b data-editable-zone="lame_3_nom">Taille de barbe</b><span class="pointilles" aria-hidden="true"></span><em data-editable-zone="lame_3_prix">Tarif à venir</em><span class="detail" data-editable-zone="lame_3_texte">Mise en forme, contours et entretien</span></li>
+          <li><b data-editable-zone="lame_4_nom">Rasage à l'ancienne</b><span class="pointilles" aria-hidden="true"></span><em data-editable-zone="lame_4_prix">Tarif à venir</em><span class="detail" data-editable-zone="lame_4_texte">Serviette chaude et rasoir</span></li>
+          <li><b data-editable-zone="lame_5_nom">Coupe + barbe</b><span class="pointilles" aria-hidden="true"></span><em data-editable-zone="lame_5_prix">Tarif à venir</em><span class="detail" data-editable-zone="lame_5_texte">La formule complète</span></li>
+        </ul>
+        <p class="note" data-editable-zone="lame_note">Tarifs et horaires annoncés à l'ouverture.</p>
+      </div>
+      <div class="photos reveal">
+        <img data-editable-zone="lame_photo_1" src="photos/barbier-coupe.webp" alt="Un barbier coiffe une coupe homme avec raie nette" width="900" height="1125" loading="lazy" decoding="async">
+        <img data-editable-zone="lame_photo_2" src="photos/barbier-barbe.webp" alt="Un barbier termine une taille de barbe au blaireau" width="900" height="1125" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </section>
+
+  <div class="defile" aria-hidden="true">
+    <div class="defile-in">
+      <span>Coupe</span><span class="or">&amp;</span><span>Dégradé</span><span class="or">&amp;</span><span>Barbe</span><span class="or">&amp;</span><span>Rasage</span><span class="vert">&amp;</span><span>Tatouage</span><span class="vert">&amp;</span><span>Projet sur mesure</span><span class="vert">&amp;</span><span>Flash</span><span class="or">&amp;</span>
+      <span>Coupe</span><span class="or">&amp;</span><span>Dégradé</span><span class="or">&amp;</span><span>Barbe</span><span class="or">&amp;</span><span>Rasage</span><span class="vert">&amp;</span><span>Tatouage</span><span class="vert">&amp;</span><span>Projet sur mesure</span><span class="vert">&amp;</span><span>Flash</span><span class="or">&amp;</span>
     </div>
   </div>
 
-  <!-- =============================== INFOS ============================= -->
-  <section class="clair" id="infos">
+  <!-- ============================== L'ENCRE ============================= -->
+  <section class="univers univers-encre grain" id="l-encre">
+    <div class="wrap grille">
+      <div class="photos reveal">
+        <img data-editable-zone="encre_photo_1" src="photos/tatouage-atelier.webp" alt="Un tatoueur dans son atelier, machine à la main" width="900" height="1125" loading="lazy" decoding="async">
+        <img data-editable-zone="encre_photo_2" src="photos/tatouage-seance.webp" alt="Gros plan sur une séance de tatouage" width="900" height="1125" loading="lazy" decoding="async">
+      </div>
+      <div class="reveal">
+        <span class="numero" aria-hidden="true">II</span>
+        <p class="capitales">L'Encre</p>
+        <h2 data-editable-zone="encre_titre">Tatouage <em>sur mesure</em></h2>
+        <p class="intro" data-editable-zone="encre_intro">Un tatouage se garde toute une vie. Il commence par une vraie discussion : votre idée, l'emplacement, la taille, le style.</p>
+        <ul class="liste">
+          <li><b data-editable-zone="encre_1_nom">Projet personnalisé</b><span class="pointilles" aria-hidden="true"></span><em data-editable-zone="encre_1_prix">Sur devis</em><span class="detail" data-editable-zone="encre_1_texte">Un dessin unique, créé à partir de votre idée</span></li>
+          <li><b data-editable-zone="encre_2_nom">Flash</b><span class="pointilles" aria-hidden="true"></span><em data-editable-zone="encre_2_prix">Sur devis</em><span class="detail" data-editable-zone="encre_2_texte">Des motifs prêts à tatouer</span></li>
+          <li><b data-editable-zone="encre_3_nom">Retouche</b><span class="pointilles" aria-hidden="true"></span><em data-editable-zone="encre_3_prix">Sur devis</em><span class="detail" data-editable-zone="encre_3_texte">Raviver ou reprendre un tatouage existant</span></li>
+        </ul>
+        <ol class="etapes">
+          <li><b data-editable-zone="encre_etape_1_titre">L'échange</b><p data-editable-zone="encre_etape_1_texte">Vous présentez votre idée, en message ou au salon.</p></li>
+          <li><b data-editable-zone="encre_etape_2_titre">Le dessin</b><p data-editable-zone="encre_etape_2_texte">Le motif se prépare et s'ajuste avec vous.</p></li>
+          <li><b data-editable-zone="encre_etape_3_titre">La séance</b><p data-editable-zone="encre_etape_3_texte">Sur rendez-vous, le temps qu'il faut.</p></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================== LE PONT ============================ -->
+  <section class="pont">
+    <div class="wrap">
+      <div class="pont-carte reveal">
+        <p class="capitales" style="color:var(--or-clair)">Un seul rendez-vous ?</p>
+        <h2 data-editable-zone="pont_titre">Une <em>coupe</em> et un <em class="vert">tatouage</em> le même jour&nbsp;?</h2>
+        <p data-editable-zone="pont_texte">Parlons-en : écrivez-nous sur Instagram, on regarde ensemble comment organiser votre passage.</p>
+        <a class="bt bt-or" href="https://www.instagram.com/lencreetlalame/" target="_blank" rel="noopener">Nous écrire sur Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================== LE LIEU ============================ -->
+  <section class="infos" id="le-lieu">
     <div class="wrap">
       <div class="tete reveal">
-        <p class="capitales">Infos pratiques</p>
-        <h2 data-editable-zone="infos_titre">Nous trouver</h2>
+        <p class="capitales">Le lieu</p>
+        <h2 data-editable-zone="lieu_titre">Nous trouver</h2>
       </div>
-      <div class="infos">
+      <div class="cartes-infos">
         <article class="info reveal">
           <p class="capitales">Adresse</p>
-          <h3 data-editable-zone="infos_adresse">3 Plan de la Fontaine<br>34710 Lespignan</h3>
-          <p data-editable-zone="infos_adresse_note">Au cœur du village, à quinze minutes de Béziers.</p>
+          <h3 data-editable-zone="lieu_adresse">3 Plan de la Fontaine<br>34710 Lespignan</h3>
+          <p data-editable-zone="lieu_adresse_note">Au cœur du village, à quinze minutes de Béziers.</p>
           <a class="bt" href="https://www.google.com/maps/dir/?api=1&amp;destination=3+Plan+de+la+Fontaine+34710+Lespignan" target="_blank" rel="noopener">Itinéraire</a>
         </article>
         <article class="info reveal">
           <p class="capitales">Horaires</p>
-          <h3 data-editable-zone="infos_horaires_titre">Bientôt</h3>
-          <p data-editable-zone="infos_horaires">Les horaires d'ouverture seront communiqués très prochainement. Suivez-nous sur Instagram pour connaître la date d'ouverture.</p>
+          <h3 data-editable-zone="lieu_horaires_titre">Bientôt</h3>
+          <p data-editable-zone="lieu_horaires">Les horaires seront annoncés à l'ouverture. Suivez-nous sur Instagram pour ne pas la manquer.</p>
         </article>
         <article class="info reveal">
           <p class="capitales">Contact</p>
-          <h3 data-editable-zone="infos_contact_titre">@lencreetlalame</h3>
-          <p data-editable-zone="infos_contact">Une question, un projet de tatouage ? Écrivez-nous directement sur Instagram.</p>
+          <h3 data-editable-zone="lieu_contact_titre">@lencreetlalame</h3>
+          <p data-editable-zone="lieu_contact">Une question, un projet de tatouage ? Écrivez-nous directement sur Instagram.</p>
           <a class="bt" href="https://www.instagram.com/lencreetlalame/" target="_blank" rel="noopener">Nous écrire</a>
         </article>
       </div>
-      <div class="carte-plan reveal">
+      <div class="plan reveal">
         <iframe title="Plan d'accès à L'encre & la Lame, Lespignan" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                 src="https://www.google.com/maps?q=3+Plan+de+la+Fontaine,+34710+Lespignan&amp;output=embed"></iframe>
       </div>
@@ -381,12 +451,12 @@ section { padding: clamp(80px, 11vw, 140px) 0 }
 
 <footer class="pied">
   <div class="wrap pied-in">
-    <span>© <span id="annee">2026</span> L'encre &amp; la Lame — Coiffeur homme, barbier et tatoueur à Lespignan</span>
+    <span>© <span id="annee">2026</span> L'encre &amp; la Lame — Barbier, coiffeur homme et tatoueur à Lespignan</span>
     <span>Site réalisé par <a href="https://locweb.fr" target="_blank" rel="noopener">LocWeb</a></span>
   </div>
 </footer>
 
-<nav class="barre" aria-label="Accès rapide">
+<nav class="barre" id="barre" aria-label="Accès rapide">
   <a class="bt bt-or" href="https://www.instagram.com/lencreetlalame/" target="_blank" rel="noopener">Instagram</a>
   <a class="bt bt-ligne" href="https://www.google.com/maps/dir/?api=1&amp;destination=3+Plan+de+la+Fontaine+34710+Lespignan" target="_blank" rel="noopener">Itinéraire</a>
 </nav>
@@ -394,8 +464,22 @@ section { padding: clamp(80px, 11vw, 140px) 0 }
 <script>
   (function () {
     var entete = document.getElementById('entete');
-    function maj() { entete.classList.toggle('plein', window.scrollY > 40); }
-    maj(); window.addEventListener('scroll', maj, { passive: true });
+    var barre = document.getElementById('barre');
+    var scene = document.getElementById('scene');
+    function defil() {
+      var y = window.scrollY;
+      entete.classList.toggle('plein', y > window.innerHeight * .6);
+      barre.classList.toggle('visible', y > window.innerHeight * .5);
+    }
+    defil(); window.addEventListener('scroll', defil, { passive: true });
+
+    /* Le cote survole s'ouvre. Clavier compris : le focus fait pareil. */
+    scene.querySelectorAll('.moitie').forEach(function (m) {
+      function ouvrir() { scene.setAttribute('data-cote', m.getAttribute('data-cote')); }
+      m.addEventListener('mouseenter', ouvrir);
+      m.addEventListener('focus', ouvrir);
+    });
+    scene.addEventListener('mouseleave', function () { scene.removeAttribute('data-cote'); });
 
     var els = document.querySelectorAll('.reveal');
     if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) {
